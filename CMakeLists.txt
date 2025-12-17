@@ -13,9 +13,9 @@ FetchContent_Declare(SFML
 FetchContent_MakeAvailable(SFML)
 
 add_executable(main 
-	src/main.cpp
+	"src/Game.cpp"
 	
-)
+ "src/GameState.cpp" "src/PlayState.cpp" "src/PlayState.cpp" "src/MenuState.cpp" "src/MenuItems.cpp" "src/CellTypes.hpp" "src/Grid.cpp" "src/GameObject.cpp" "src/Food.cpp")
 target_compile_features(main PRIVATE cxx_std_17)
 target_link_libraries(main PRIVATE SFML::Graphics SFML::Audio)
 
