@@ -1,11 +1,11 @@
 #ifndef CellTypes_hpp
 #define CellTypes_hpp
 
-enum CellTypes
+enum class CellTypes
 {
 	Food,
 	Snake,
-	Empty
+	
 
 };
 
